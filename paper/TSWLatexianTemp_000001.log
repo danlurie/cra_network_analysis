@@ -1,0 +1,523 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  11 MAY 2015 12:27
+entering extended mode
+ \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/Users/dlurie/Dropbox/Coursework/computational_models/final_project/paper/TSWLatexianTemp_000001.sty
+(/Users/dlurie/Dropbox/Coursework/computational_models/final_project/paper/TSWLatexianTemp_000001.sty
+LaTeX2e <2014/05/01>
+Babel <3.9k> and hyphenation patterns for 78 languages loaded.
+
+/Users/dlurie/Dropbox/Coursework/computational_models/final_project/paper/TSWLatexianTemp_000001.sty:28: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 \usepackage{
+                 eso-pic} % used by \AddToShipoutPicture
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+/Users/dlurie/Dropbox/Coursework/computational_models/final_project/paper/TSWLatexianTemp_000001.sty:102: LaTeX Error: Environment abstract undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.102 \renewenvironment{abstract}
+                                 {\vskip.075in\centerline{\large\bf
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+\nipsrulerbox=\box26
+\nipsrulercount=\count79
+\nipsruleroffset=\dimen102
+\cv@lineheight=\dimen103
+\cv@boxheight=\dimen104
+\cv@tmpbox=\box27
+\cv@refno=\count80
+\cv@tot=\count81
+\cv@tmpc@=\count82
+\cv@tmpc=\count83
+/Users/dlurie/Dropbox/Coursework/computational_models/final_project/paper/TSWLatexianTemp_000001.sty:226: Undefined control sequence.
+l.226 \AddToShipoutPicture
+                          {%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/dlurie/Dropbox/Coursework/computational_models/final_project/paper/TSWLatexianTemp_000001.sty:230: Undefined control sequence.
+l.230   \color
+              [rgb]{.7,.7,.7}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/Users/dlurie/Dropbox/Coursework/computational_models/final_project/paper/TSWLatexianTemp_000001.sty:230: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.230   \color[
+               rgb]{.7,.7,.7}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 7 in font nullfont!
+/Users/dlurie/Dropbox/Coursework/computational_models/final_project/paper/TSWLatexianTemp_000001.sty:231: Undefined control sequence.
+l.231   \AtTextUpperLeft
+                        {%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/dlurie/Dropbox/Coursework/computational_models/final_project/paper/TSWLatexianTemp_000001.sty:233: Undefined control sequence.
+<argument> \LenToUnit 
+                      {-\nipsruleroffset }
+l.233       \nipsruler{\nipsrulercount}}
+                                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/dlurie/Dropbox/Coursework/computational_models/final_project/paper/TSWLatexianTemp_000001.sty:233: Missing number, treated as zero.
+<to be read again> 
+                   {
+l.233       \nipsruler{\nipsrulercount}}
+                                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/Users/dlurie/Dropbox/Coursework/computational_models/final_project/paper/TSWLatexianTemp_000001.sty:233: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   {
+l.233       \nipsruler{\nipsrulercount}}
+                                        
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+/Users/dlurie/Dropbox/Coursework/computational_models/final_project/paper/TSWLatexianTemp_000001.sty:233: A <box> was supposed to be here.
+<to be read again> 
+                   {
+l.233       \nipsruler{\nipsrulercount}}
+                                        
+I was expecting to see \hbox or \vbox or \copy or \box or
+something like that. So you might find something missing in
+your output. But keep trying; you can fix this later.
+
+Missing character: There is no - in font nullfont!
+/Users/dlurie/Dropbox/Coursework/computational_models/final_project/paper/TSWLatexianTemp_000001.sty:233: Missing number, treated as zero.
+<to be read again> 
+                   }
+l.233       \nipsruler{\nipsrulercount}}
+                                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/Users/dlurie/Dropbox/Coursework/computational_models/final_project/paper/TSWLatexianTemp_000001.sty:233: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.233       \nipsruler{\nipsrulercount}}
+                                        
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+/Users/dlurie/Dropbox/Coursework/computational_models/final_project/paper/TSWLatexianTemp_000001.sty:233: Missing number, treated as zero.
+<to be read again> 
+                   \hbox 
+l.233       \nipsruler{\nipsrulercount}}
+                                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/Users/dlurie/Dropbox/Coursework/computational_models/final_project/paper/TSWLatexianTemp_000001.sty:233: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \hbox 
+l.233       \nipsruler{\nipsrulercount}}
+                                        
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+/Users/dlurie/Dropbox/Coursework/computational_models/final_project/paper/TSWLatexianTemp_000001.sty:233: Undefined control sequence.
+<argument> \LenToUnit 
+                      {-35pt}
+l.233       \nipsruler{\nipsrulercount}}
+                                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/dlurie/Dropbox/Coursework/computational_models/final_project/paper/TSWLatexianTemp_000001.sty:233: Missing number, treated as zero.
+<to be read again> 
+                   {
+l.233       \nipsruler{\nipsrulercount}}
+                                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/Users/dlurie/Dropbox/Coursework/computational_models/final_project/paper/TSWLatexianTemp_000001.sty:233: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   {
+l.233       \nipsruler{\nipsrulercount}}
+                                        
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no - in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+/Users/dlurie/Dropbox/Coursework/computational_models/final_project/paper/TSWLatexianTemp_000001.sty:233: Missing number, treated as zero.
+<to be read again> 
+                   \begingroup 
+l.233       \nipsruler{\nipsrulercount}}
+                                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/Users/dlurie/Dropbox/Coursework/computational_models/final_project/paper/TSWLatexianTemp_000001.sty:233: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \begingroup 
+l.233       \nipsruler{\nipsrulercount}}
+                                        
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 000
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 001
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 002
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 003
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 004
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 005
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 006
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 007
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 008
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 009
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 010
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 011
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 012
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 013
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 014
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 015
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 016
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 017
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 018
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 019
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 020
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 021
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 022
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 023
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 024
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 025
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 026
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 027
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 028
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 029
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 030
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 031
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 032
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 033
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 034
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 035
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 036
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 037
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 038
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 039
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 040
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 041
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 042
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 043
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 044
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 045
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 046
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 047
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 048
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 049
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 050
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 051
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 052
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 233
+ \nipstenhv 053
+ []
+
+)
+! Emergency stop.
+<*> ...al_project/paper/TSWLatexianTemp_000001.sty
+                                                  
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 59 strings out of 493117
+ 829 string characters out of 6135433
+ 54909 words of memory out of 5000000
+ 3619 multiletter control sequences out of 15000+600000
+ 4191 words of font info for 15 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 9i,3n,13p,190b,67s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

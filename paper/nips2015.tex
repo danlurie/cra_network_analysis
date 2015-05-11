@@ -1,0 +1,166 @@
+\documentclass{article} % For LaTeX2e
+\usepackage{nips15submit_e,times}
+\usepackage{hyperref}
+\usepackage{url}
+%\documentstyle[nips14submit_09,times,art10]{article} % For LaTeX 2.09
+
+
+\title{Formatting Instructions for NIPS 2015}
+
+
+\author{
+David S.~Hippocampus\thanks{ Use footnote for providing further information
+about author (webpage, alternative address)---\emph{not} for acknowledging
+funding agencies.} \\
+Department of Computer Science\\
+Cranberry-Lemon University\\
+Pittsburgh, PA 15213 \\
+\texttt{hippo@cs.cranberry-lemon.edu} \\
+\And
+Coauthor \\
+Affiliation \\
+Address \\
+\texttt{email} \\
+\AND
+Coauthor \\
+Affiliation \\
+Address \\
+\texttt{email} \\
+\And
+Coauthor \\
+Affiliation \\
+Address \\
+\texttt{email} \\
+\And
+Coauthor \\
+Affiliation \\
+Address \\
+\texttt{email} \\
+(if needed)\\
+}
+
+% The \author macro works with any number of authors. There are two commands
+% used to separate the names and addresses of multiple authors: \And and \AND.
+%
+% Using \And between authors leaves it to \LaTeX{} to determine where to break
+% the lines. Using \AND forces a linebreak at that point. So, if \LaTeX{}
+% puts 3 of 4 authors names on the first line, and the last on the second
+% line, try using \AND instead of \And before the third author name.
+
+\newcommand{\fix}{\marginpar{FIX}}
+\newcommand{\new}{\marginpar{NEW}}
+
+%\nipsfinalcopy % Uncomment for camera-ready version
+
+\begin{document}
+
+
+\maketitle
+
+\begin{abstract}
+The abstract paragraph should be indented 1/2~inch (3~picas) on both left and
+right-hand margins. Use 10~point type, with a vertical spacing of 11~points.
+The word \textbf{Abstract} must be centered, bold, and in point size 12. Two
+line spaces precede the abstract. The abstract must be limited to one
+paragraph.
+\end{abstract}
+
+\section{Introduction}
+
+\section{Background}
+\label{background}
+
+
+Many every day tasks require a search through memory. Where did you leave your keys last night? What was the name of the Mexican restaurant your brother likes so much? What should you get your wife for her birthday? In many cases, 
+
+
+To suggest that network structure may influence cognitive processes operating on semantic information is not a new idea. The Spreading-Activation model of semantic processing, proposed in 1975 by Collins and Loftus [1] suggests that activation will spread through the network from an activated concept to closely associated concepts, much in the same way current spreads through an electrical circuit. Since it was first described, the Spreading Activation model has been used to explain many different phenomena, but most relevant to the topic at hand are attempts to describe 
+
+\section{Methods and Analysis}
+\label{methods-analysis}
+
+Unless otherwise specified, all analyses were carried out in Python using the NetworkX, Pandas, NumPy and SciPy libraries. Code and data are available online at \url{http://github.com/danlurie/cra_network_analysis}.  
+
+\subsection{Constructing the USF-FA semantic network}
+
+A copy of the USF-FA data was downloaded from the Nexus Network Repository (http://nexus.igraph.org). The USF-FA data in the Nexus Repository are structured as a directed, unweighted graph, so we used other edge attributes to calculate weights. Specifically, edge weight was defined as GroupSize (the number of participants producing a particular response to a cue word) divided by NormingSize (the total number of participants presented with that cue). In this way, edge weights represent the proportion of trials for which a cue word was associated with a particular response.  
+
+\subsection{Calculation of nodal metrics for solution words}
+
+For each solution word, we calculated a number of nodal metrics, each of which characterizes in a different way the role of the solution word in the overall USF-FA semantic network. Below, we briefly describe each metric. Specific equations used in our calculations can be found in the NetworkX documentation.
+
+\subsubsection{Degreee Centrality}
+
+\subsubsection{Closeness Centrality}
+
+
+\subsubsection{Betweenness Centrality}
+Betweenness Centrality is based on the concept of shortest paths, which will be discussed further in section \ref{path-metrics}, but are simply the shortest path between a pair of nodes in the network. Betweenness centrality is a measure of how many of these paths, considering all possible pairs of nodes in the network, pass through the target node. A node with high Betweenness Centrality can be said to play an important role in information flow through the network. 
+
+\subsubsection{PageRank}
+Originally developed for use by web search engines (Page and Brin), recent work suggests a close relationship between PageRank and verbal fluency (Griffiths et al). For each node, PageRank provides a ranking based on the number of incoming links and the properties of the source nodes for each link. In this way, PageRank can be thought of as an extension of Eigenvector Centrality. As with other centrality metrics, PageRank can be considered a measure of node's "importance" within the networks based on its connections.
+
+\subsection{Calculation of nodal metrics for solution words}
+\label{path-metrics}
+
+For each solution word, we calculated a number of nodal metrics, each of which characterizes in a different way the role of the solution word in the overall USF-FA semantic network. Below, we briefly describe each metric.
+
+\subsection{Testing relationships between network measures and problem difficulty}
+
+To test our hypothesis that network properties would be associated with the difficulty of CRA problems, we calculated the Pearson correlation between nodal measures, path lengths, and human performance data. Specifically, we tested the relationship between each network measure and the following behavioral outcome measures: 
+
+\section{Results}
+\label{results}
+
+
+
+
+\section{Discussion}
+\label{discussion}
+
+The main impetus for the analysis presented here was a series of results suggesting an important role for network structure in determining the dynamics of cognitive processes operating on semantic information. As such, we hypothesized that human performance on Compound Remote Associate problems could be at least in part predicted by either the nodal properties of the solution word, or the the path lengths from the cue words to the solution.
+
+Contrary to our hypothesis, nodal properties of solution words did not show any significant association with problem difficulty. Follow-up analysis of nodal properties of cue words also failed to show any association, as did analysis of path lengths from cue to solution. 
+We now briefly discuss this null result and provide suggestions for factors to consider in future work on this topic.
+
+\subsection{Random walks on semantic networks}
+
+Bourgin and colleagues [] demonstrated that multiply-constrained search for a remote associate through a semantic network can be modeled as Markov Chain Monte Carlo random walk through the network. In this model, the probability of moving to a new node depends largely of the structure and weight of outgoing edges. 
+
+The work by Bourgin follows previous efforts to 
+
+
+This follows work by Abbott [] which suggests that the previously observed relationship between verbal fluency and PageRank [] may be due the fact that the PageRank algorithm approximates a random walk, and that is the interaction between network structure and the path of many random walkers which determines the importance of a node.
+
+\subsubsection*{Acknowledgments}
+
+Use unnumbered third level headings for the acknowledgments. All
+acknowledgments go at the end of the paper. Do not include 
+acknowledgments in the anonymized submission, only in the 
+final paper. 
+
+\subsubsection*{References}
+
+References follow the acknowledgments. Use unnumbered third level heading for
+the references. Any choice of citation style is acceptable as long as you are
+consistent. It is permissible to reduce the font size to `small' (9-point) 
+when listing the references. {\bf Remember that this year you can use
+a ninth page as long as it contains \emph{only} cited references.}
+
+\small{
+[1] Alexander, J.A. \& Mozer, M.C. (1995) Template-based algorithms
+for connectionist rule extraction. In G. Tesauro, D. S. Touretzky
+and T.K. Leen (eds.), {\it Advances in Neural Information Processing
+Systems 7}, pp. 609-616. Cambridge, MA: MIT Press.
+
+[2] Bower, J.M. \& Beeman, D. (1995) {\it The Book of GENESIS: Exploring
+Realistic Neural Models with the GEneral NEural SImulation System.}
+New York: TELOS/Springer-Verlag.
+
+[3] Hasselmo, M.E., Schnell, E. \& Barkai, E. (1995) Dynamics of learning
+and recall at excitatory recurrent synapses and cholinergic modulation
+in rat hippocampal region CA3. {\it Journal of Neuroscience}
+{\bf 15}(7):5249-5262.
+}
+
+\end{document}
